@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: #f4f5f6;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.wrapper {
+  display: flex;
+  flex: available;
+}
+
+.sidebar-heading {
+  color: #55c378;
+  font-size: 18px;
+  padding: 0 10px;
+  margin: 0;
+  line-height: 60px;
+}
+
+.sidebar-heading span {
+  vertical-align: middle;
+}
